@@ -26,11 +26,9 @@ module.exports = class wish {
                     console.log(`wish saved`);
                 }else{
                     console.log(error);
-                }
+                };
         
-            })
-
-
+            });
 
         });
     }

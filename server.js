@@ -20,7 +20,7 @@ app.get(`/`, (req, res) => {
 app.post (`/wish`, (reg, res)=>{
     let userData = reg.body.userwish;
 
-    let newwish = new Wish(userData);
+    let newWish = new Wish(userData);
     newwish.savewish();
     res.redirect(`/`);
 
